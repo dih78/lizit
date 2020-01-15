@@ -1,0 +1,75 @@
+<nav class="navbar navbar-default navbar-fixed-top navbar-static">
+    <div class="alert alert-danger text-center" role="alert">
+      
+    </div>
+
+    <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/logo.svg" alt="LizIt Logo" style="margin-top: 10px;"> </a>
+        </div>
+
+
+        <div class="navbar-collapse collapse">
+
+            <ul id="sddm" class="nav navbar-nav right-nav"> <!-- RIGHT ALIGNED NAVBAR -->
+
+
+                <li {% if page.path contains 'about' %} class="active" {% endif %} class="dropdown">    <!-- ABOUT -->
+                    <a href="{{ site.baseurl }}/about/"
+                    onmouseover="mopen('m1')"
+                    onmouseout="mclosetime()">About
+                    </a>
+                    <div id="m1" onmouseover="mcancelclosetime()"
+                onmouseout="mclosetime()">
+                            <a href="{{ site.baseurl }}/about/#core-values">Core Values</a>
+                            <a href="{{ site.baseurl }}/about/#events">Events</a>
+                            <a href="{{ site.baseurl }}/press">Media Coverage</a>
+                    </div>
+                </li>
+
+
+
+                <li {% if page.path contains 'for-entrepreneurs' %} class="active" {% endif %} class="dropdown">  <!-- FOR ENTREPRENEURS -->
+                    <a href="{{ site.baseurl }}/for-entrepreneurs/"
+                    onmouseover="mopen('m2')"
+                    onmouseout="mclosetime()">For Homeowners
+                    </a>
+                    <div id="m2" onmouseover="mcancelclosetime()"
+                onmouseout="mclosetime()">
+                            <a href="{{ site.baseurl }}/for-entrepreneurs/#fellowship">Fellowship Program</a>
+                            <a href="{{ site.baseurl }}/for-entrepreneurs/#5across">5 Across</a>
+                            <a href="{{ site.baseurl }}/for-entrepreneurs/#cherub">Cherub Fund</a>
+                            
+                    </div>
+                </li>
+                <li {% if page.path contains 'coworking' %} class="active" {% endif %} class="dropdown">   <!-- COWORKING -->
+                    <a href="{{ site.baseurl }}/workspace/"
+                    onmouseover="mopen('m4')"
+                    onmouseout="mclosetime()">Workspace
+                    </a>
+                    <div id="m4" onmouseover="mcancelclosetime()"
+                onmouseout="mclosetime()">
+                            <a href="{{ site.baseurl }}/workspace/#features">Features</a>
+                      <a href="{{ site.baseurl }}/workspace/#tour">Schedule a Tour</a>
+                            <a href="{{ site.baseurl }}/workspace/#rent-space">Rent Space</a>
+                    </div>
+                </li>
+                
+                
+                <li>
+                    <a class="stay-connected" data-toggle="modal" data-target="#email-popup" style="cursor:pointer">Stay Connected</a>
+                </li>
+
+
+
+              </ul>
+          <!-- <div style="clear:both"></div> -->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<div class="spacer">&nbsp;</div>
