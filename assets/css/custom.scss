@@ -155,8 +155,8 @@ iframe {
 .subheader {
 	width: 100%;
 	height: 300px;
-	border-bottom: 25px rgb(207, 53, 59);
-	background-color: #BF001E;
+	border-bottom: 25px #35c8cf;
+	background-color: #00bfbb;
 	h1 {
 		color: white;
 		padding: 100px 0 0 0;
@@ -550,13 +550,13 @@ h5 {
 		left: 0;
 		right: 0;
 	  background-color: white;
-	  color: #B81124;
+	  color: #00BFBB;
 	  visibility: hidden;
 	  opacity: 0;
 		&:after {
 			display: grid;
 			content: '';
-			border-bottom: 3px solid #B81124;
+			border-bottom: 3px solid #00BFBB;
 			@include mobile {
 				border-bottom: none;
 			}
