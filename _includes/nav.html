@@ -34,30 +34,28 @@
 
 
 
-                <li {% if page.path contains 'for-entrepreneurs' %} class="active" {% endif %} class="dropdown">  <!-- FOR ENTREPRENEURS -->
-                    <a href="{{ site.baseurl }}/for-entrepreneurs/"
+                <li {% if page.path contains 'for-homeowners' %} class="active" {% endif %} class="dropdown">  <!-- FOR ENTREPRENEURS -->
+                    <a href="{{ site.baseurl }}/for-homeowners/"
                     onmouseover="mopen('m2')"
                     onmouseout="mclosetime()">For Homeowners
                     </a>
                     <div id="m2" onmouseover="mcancelclosetime()"
                 onmouseout="mclosetime()">
-                            <a href="{{ site.baseurl }}/for-entrepreneurs/#fellowship">Fellowship Program</a>
-                            <a href="{{ site.baseurl }}/for-entrepreneurs/#5across">5 Across</a>
-                            <a href="{{ site.baseurl }}/for-entrepreneurs/#cherub">Cherub Fund</a>
-                            
+                            <a href="{{ site.baseurl }}/for-homeowners/#fellowship">Benefits</a>
+                            <a href="{{ site.baseurl }}/for-homeowners/#5across">Features</a>
+                                                       
                     </div>
                 </li>
                 <li {% if page.path contains 'coworking' %} class="active" {% endif %} class="dropdown">   <!-- COWORKING -->
                     <a href="{{ site.baseurl }}/workspace/"
                     onmouseover="mopen('m4')"
-                    onmouseout="mclosetime()">For renters
+                    onmouseout="mclosetime()">For Renters
                     </a>
                     <div id="m4" onmouseover="mcancelclosetime()"
                 onmouseout="mclosetime()">
                             <a href="{{ site.baseurl }}/workspace/#tour">Benefits</a>
                             <a href="{{ site.baseurl }}/workspace/#features">Features</a>
-                      
-                            <a href="{{ site.baseurl }}/workspace/#rent-space">Rent Space</a>
+                                               
                     </div>
                 </li>
                 
