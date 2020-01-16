@@ -50,12 +50,13 @@
                 <li {% if page.path contains 'coworking' %} class="active" {% endif %} class="dropdown">   <!-- COWORKING -->
                     <a href="{{ site.baseurl }}/workspace/"
                     onmouseover="mopen('m4')"
-                    onmouseout="mclosetime()">Workspace
+                    onmouseout="mclosetime()">For renters
                     </a>
                     <div id="m4" onmouseover="mcancelclosetime()"
                 onmouseout="mclosetime()">
+                            <a href="{{ site.baseurl }}/workspace/#tour">Benefits</a>
                             <a href="{{ site.baseurl }}/workspace/#features">Features</a>
-                      <a href="{{ site.baseurl }}/workspace/#tour">Schedule a Tour</a>
+                      
                             <a href="{{ site.baseurl }}/workspace/#rent-space">Rent Space</a>
                     </div>
                 </li>

@@ -629,7 +629,7 @@ h5 {
 		}
 	}
 	.subheader {
-		background-image: url("/assets/img/headers/about_us.png");
+		background-image: url("{{ site.baseurl }}/assets/img/headers/about_us.png");
 	}
 	.core-values {
 		.col-sm-3, col-xs-6 {
@@ -681,7 +681,7 @@ h5 {
 
 .dashboard {
 	.subheader {
-		background-image: url("/assets/img/headers/about_us.png");
+		background-image: url("{{ site.baseurl }}/assets/img/headers/about_us.png");
 	}
 }
 /* =============================================
@@ -1213,7 +1213,6 @@ h5 {
 footer {
 	@media (min-width: 700px)
 	{
-		background: url("../img/map.png") repeat;
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
