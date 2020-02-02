@@ -4,9 +4,9 @@
 						Colors
 *****************************************************/
 $color_alto_approx: rgb(222, 222, 222);
-$color_cardinal_approx: rgb(184, 17, 36);
-$color_cardinal_approx_feature: rgb(150, 0, 23);
-$color_cardinal_approx_shade: rgb(220, 17, 36);
+$color_cardinal_approx:#1c819e;
+$color_cardinal_approx_feature: #1c819e;
+$color_cardinal_approx_shade: #1c819e;
 $color_pumice_approx: rgb(200, 200, 200);
 $color_shady_lady_approx: rgb(165, 165, 165);
 $color_pippin_approx: rgb(255,222,223);
@@ -156,7 +156,7 @@ iframe {
 	width: 100%;
 	height: 250px;
 	border-bottom: 25px #35c8cf;
-	background-color: #00bfbb;
+	background-color: #1c819e;
 	h1 {
 		color: white;
 		padding: 50px 0 0 0;
@@ -550,13 +550,13 @@ h5 {
 		left: 0;
 		right: 0;
 	  background-color: white;
-	  color: #00BFBB;
+	  color: #1c819e;
 	  visibility: hidden;
 	  opacity: 0;
 		&:after {
 			display: grid;
 			content: '';
-			border-bottom: 3px solid #00BFBB;
+			border-bottom: 3px solid #1c819e;
 			@include mobile {
 				border-bottom: none;
 			}

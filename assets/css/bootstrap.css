@@ -2178,8 +2178,8 @@ fieldset[disabled] .btn-warning.active {
 
 .btn-danger {
   color: #ffffff;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #1c819e;
+  border-color: #1c819e;
 }
 
 .btn-danger:hover,
@@ -2213,8 +2213,8 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #1c819e;
+  border-color: #1c819e;
 }
 
 .btn-success {

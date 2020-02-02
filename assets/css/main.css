@@ -51,7 +51,7 @@ p {
 
 /* Links */
 a {
-    color: rgb(184, 17, 36);
+    color: #1C819E;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -1403,11 +1403,11 @@ div.sub-row {
 /*footer signup*/
 
 .footer-signup input {
-	background-color: #d9534f
+	background-color: #1c819e
 }
 
 .footer-signup input:hover {
-	background-color: #d43f3a
+	background-color: #1c819e
 }
 
 /* dropdown */
